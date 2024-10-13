@@ -1,9 +1,9 @@
 import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "./ui/animated-grid-pattern";
 import ShinyButton from "./ui/shiny-button";
-import face1 from "../app/Assets/face1.jpg"
-import face2 from "../app/Assets/face2.jpg"
-import face3 from "../app/Assets/face3.jpg"
+import face1 from "../app/assets/face1.jpg";
+import face2 from "../app/assets/face2.jpg";
+import face3 from "../app/assets/face3.jpg";
 import Image from "next/image";
 
 export default function AnimatedGridPatternDemo() {
@@ -18,16 +18,38 @@ export default function AnimatedGridPatternDemo() {
                     Let's take your crypto project to the next level. 
                 </p>
 
-          <div className="flex place-content-center">
-              <div className="rounded-full border-white w-12 h-12 border-2 ">
-                    <Image src={face1} alt="" />
+          <div className="flex place-content-center mt-4">
+              <div className=" z-10">
+              <Image 
+                  src={face1}
+                  alt="my_profile_pic"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                  className="img1 "
+              />
               </div>
-              <div className="rounded-full z-40 -ml-3 border-white w-12 h-12 border-2 ">
-                    <Image src={face2} alt="" />
+              <div className=" z-40 -ml-3   ">
+              <Image 
+                  src={face2}
+                  alt="my_profile_pic"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                   className="img1 "
+              />
               </div>
-              <div className="rounded-full z-40 -ml-3 border-white w-12 h-12 border-2 ">
-                    <Image src={face3} alt="" />
+              <div className=" z-40 -ml-3   ">
+              <Image 
+                  src={face3}
+                  alt="my_profile_pic"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                   className="img1 "
+              />
               </div>
+             
           </div>
  
                 <ShinyButton className="w-[10rem] p-4 m-auto grid place-content-center mt-5 ">Get Started</ShinyButton>
