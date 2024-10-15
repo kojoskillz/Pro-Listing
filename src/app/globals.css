@@ -98,6 +98,27 @@ body{
   margin-top: 4px;
   z-index: 40;
 }
+.logo{
+  width: 35px;
+  height: 35px;
+  margin-top: -94px;
+  margin-left: 18px;
+  position: relative;
+  float: left;
+  z-index: 40;
+}
+
+@media screen  and (min-width: 1080px) {
+  .logo{
+    width: 45px;
+    height: 45px;
+    margin-top: -65px;
+    margin-left: -250px;
+    position: relative;
+    float: left;
+    z-index: 40;
+  }
+}
 
 :root {
   --font-agdasima: "Agdasima", cursive;
