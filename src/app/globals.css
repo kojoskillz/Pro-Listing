@@ -83,6 +83,20 @@ body{
   border: 2px solid white;
   width: 3.2rem;
   height: 3.2rem;
-  
 
+}
+
+.star{
+  width: 25px;
+  height: 25px;
+  margin-top: 4px;
+}
+
+:root {
+  --font-agdasima: "Agdasima", cursive;
+  /* --font-paytone_one:  "Paytone_One", system-ui; */
+}
+
+.agdasima {
+  font-family: var(--font-agdasima);
 }
