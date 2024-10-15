@@ -1,6 +1,6 @@
 import '../app/globals.css';
 import AnimatedGridPatternDemo from '../components/Grid_background';
-import ShinyButtonDemo from '../components/Grid_background';
+// import ShinyButtonDemo from '../components/Grid_background';
 import FloatingNavDemo from '../components/Navbar';
 import ShineBorderDemo from '../components/Card';
 import TextRevealDemo from '../components/TextReveal';
@@ -15,7 +15,7 @@ export default function Home() {
     <>
         <FloatingNavDemo />
         <AnimatedGridPatternDemo />
-        <ShinyButtonDemo />
+        {/* <ShinyButtonDemo /> */}
         <TextRevealDemo />
         <ShineBorderDemo />
         {/* <BentoDemo /> */}
