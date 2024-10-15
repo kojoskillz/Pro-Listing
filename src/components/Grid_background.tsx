@@ -6,11 +6,24 @@ import face2 from "../app/assets/face2.jpg";
 import face3 from "../app/assets/face3.jpg";
 import star from "../app/assets/star.png";
 import starX from "../app/assets/starX.png";
+import logo from "../app/assets/Pro listing logo.png";
 import Image from "next/image";
 
 export default function AnimatedGridPatternDemo() {
   return(
     <div className="relative grid place-content-center h-[700px] w-full items-center justify-center overflow-hidden bg-black p-20 md:shadow-xl ">
+         {/* logo */}
+         <div>
+         <Image 
+                  src={logo}
+                  alt="logo"
+                  width="100"
+                  height="100"
+                  sizes="fit-content"
+                  className="logo"
+              />    
+         </div>
+
       <div className="grid place-content-center p-5 m-auto">
              
              <div className="relative flex rounded-full  mx-auto border z-40 border-white/10  bg-gradient-to-r  from-transparent via-slate-900 to-black w-[15rem] place-content-center ">
