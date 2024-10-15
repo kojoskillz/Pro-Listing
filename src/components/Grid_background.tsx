@@ -5,6 +5,7 @@ import face1 from "../app/assets/face1.jpg";
 import face2 from "../app/assets/face2.jpg";
 import face3 from "../app/assets/face3.jpg";
 import star from "../app/assets/star.png";
+import starX from "../app/assets/starX.png";
 import Image from "next/image";
 
 export default function AnimatedGridPatternDemo() {
@@ -15,7 +16,7 @@ export default function AnimatedGridPatternDemo() {
              <div className="relative flex rounded-full  mx-auto border z-40 border-white/10  bg-gradient-to-r  from-transparent via-slate-900 to-black w-[15rem] place-content-center ">
              <Image 
                   src={star}
-                  alt="my_profile_pic"
+                  alt="star_image"
                   width="100"
                   height="100"
                   sizes="fit-content"
@@ -41,7 +42,7 @@ export default function AnimatedGridPatternDemo() {
               <div className=" z-10">
               <Image 
                   src={face1}
-                  alt="my_profile_pic"
+                  alt="star_image"
                   width="900"
                   height="900"
                   sizes="fit-content"
@@ -51,7 +52,7 @@ export default function AnimatedGridPatternDemo() {
               <div className=" z-40 -ml-3   ">
               <Image 
                   src={face2}
-                  alt="my_profile_pic"
+                  alt="star_image"
                   width="900"
                   height="900"
                   sizes="fit-content"
@@ -61,16 +62,67 @@ export default function AnimatedGridPatternDemo() {
               <div className=" z-40 -ml-3   ">
               <Image 
                   src={face3}
-                  alt="my_profile_pic"
+                  alt="star_image"
                   width="900"
                   height="900"
                   sizes="fit-content"
                    className="img1 "
               />
               </div>
-             
+    
+
           </div>
  
+                    {/* starX_image */}
+           <div className="flex place-content-center">
+               <Image 
+                  src={starX}
+                  alt="star_image"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                   className="starX"
+                 />
+               <Image 
+                  src={starX}
+                  alt="star_image"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                   className="starX"
+                 />
+               <Image 
+                  src={starX}
+                  alt="star_image"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                   className="starX"
+                 />
+               <Image 
+                  src={starX}
+                  alt="star_image"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                   className="starX"
+                 />
+               <Image 
+                  src={starX}
+                  alt="star_image"
+                  width="900"
+                  height="900"
+                  sizes="fit-content"
+                   className="starX"
+                 />
+
+               
+
+                </div>    
+            {/* star_image_ends */}
+                 <p className="text-white text-center mt-4 ">
+                     Chosen by 3000+ customers daily
+                 </p>
 
       </div>
 
