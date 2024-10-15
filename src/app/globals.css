@@ -92,6 +92,13 @@ body{
   margin-top: 4px;
 }
 
+.starX{
+  width: 25px;
+  height: 25px;
+  margin-top: 4px;
+  z-index: 40;
+}
+
 :root {
   --font-agdasima: "Agdasima", cursive;
   /* --font-paytone_one:  "Paytone_One", system-ui; */
