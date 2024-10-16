@@ -132,7 +132,7 @@ export default function AnimatedGridPatternDemo() {
                
                 </div>    
             {/* star_image_ends */}
-                 <p className="text-white text-2xl md:text-2xl lg:text-xl text-center mt-4 ">
+                 <p className="text-white text-xl md:text-2xl lg:text-xl text-center mt-4 ">
                      Chosen by 150+ customers daily
                  </p>
 
