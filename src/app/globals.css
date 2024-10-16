@@ -99,9 +99,9 @@ body{
   z-index: 40;
 }
 .logo{
-  width: 45px;
-  height: 45px;
-  margin-top: -130px;
+  width: 40px;
+  height: 40px;
+  margin-top: -40px;
   margin-left: 18px;
   position: relative;
   float: left;
