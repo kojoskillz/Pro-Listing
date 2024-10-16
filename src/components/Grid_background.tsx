@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function AnimatedGridPatternDemo() {
   return(
-    <div className="relative grid place-content-center h-[700px] w-full items-center justify-center overflow-hidden bg-black p-20 md:shadow-xl ">
+    <div className="relative grid place-content-center h-[900px] lg:h-[700px] md:[800px] w-full items-center justify-center overflow-hidden bg-black p-10 md:shadow-xl shadow-3xl ">
          {/* logo */}
          <div>
          <Image 
@@ -26,7 +26,7 @@ export default function AnimatedGridPatternDemo() {
 
       <div className="grid place-content-center p-5 m-auto">
              
-             <div className="relative flex rounded-full  mx-auto border z-40 border-white/10  bg-gradient-to-r  from-transparent via-slate-900 to-black w-[15rem] place-content-center ">
+             <div className="relative flex rounded-full p-[2.5px] mx-auto border z-40 border-white/10  bg-gradient-to-r  from-transparent via-slate-900 to-black w-[17.7rem] place-content-center ">
              <Image 
                   src={star}
                   alt="star_image"
@@ -35,21 +35,21 @@ export default function AnimatedGridPatternDemo() {
                   sizes="fit-content"
                   className="star "
               />                
-                 <h1 className="text-white text-center p-1 font-semibold">
+                 <h1 className="text-white text-center text-lg lg:text-lg font-semibold">
                       Best Crypto Listing Agency
                  </h1>
              </div>
              
-            <h1 className="z-10 agdasima whitespace-pre-wrap text-center text-7xl lg:text-[11rem] md:text-6xl font-medium tracking-tighter text-white dark:text-white">
+            <h1 className="z-10 agdasima whitespace-pre-wrap text-center text-[5.2rem] lg:text-[11rem] md:text-6xl font-medium tracking-tighter text-white dark:text-white">
                 <span className="text-blue-500 ">Pro </span>Listing Agency
             </h1>
-                 <p className="text-slate-200 text-md lg:text-xl md:text-2xl  w-[23rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
+                 <p className="text-slate-200 text-xl lg:text-xl md:text-2xl  w-[26rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
                     We are a listing agency with transparent pricing and a seamless process, we make your success our priority. 
                     Let&apos;s  take your crypto project to the next level. 
                 </p>
 
         
-                <ShinyButton className="w-[10rem] p-4 m-auto grid place-content-center mt-5 ">Get Started</ShinyButton>
+                <ShinyButton className="lg:w-[10rem] w-[11rem] p-4 m-auto grid place-content-center mt-5 ">Get Started</ShinyButton>
                 
                 <div className="flex place-content-center mt-5">
               <div className=" z-10">
@@ -130,11 +130,10 @@ export default function AnimatedGridPatternDemo() {
                  />
 
                
-
                 </div>    
             {/* star_image_ends */}
-                 <p className="text-white text-center mt-4 ">
-                     Chosen by 3000+ customers daily
+                 <p className="text-white text-2xl md:text-2xl lg:text-xl text-center mt-4 ">
+                     Chosen by 150+ customers daily
                  </p>
 
       </div>
