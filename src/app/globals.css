@@ -81,8 +81,8 @@ body{
 .img1{
   border-radius: 360rem;
   border: 2px solid white;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 3.6rem;
+  height: 3.6rem;
 
 }
 
@@ -93,15 +93,15 @@ body{
 }
 
 .starX{
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin-top: 4px;
   z-index: 40;
 }
 .logo{
-  width: 35px;
-  height: 35px;
-  margin-top: -94px;
+  width: 45px;
+  height: 45px;
+  margin-top: -130px;
   margin-left: 18px;
   position: relative;
   float: left;
@@ -117,6 +117,21 @@ body{
     position: relative;
     float: left;
     z-index: 40;
+  }
+
+  .starX{
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+    z-index: 40;
+  }
+
+  .img1{
+    border-radius: 360rem;
+    border: 2px solid white;
+    width: 3.2rem;
+    height: 3.2rem;
+  
   }
 }
 
