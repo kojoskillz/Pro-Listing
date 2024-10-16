@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function AnimatedGridPatternDemo() {
   return(
-    <div className="relative grid place-content-center h-[900px] lg:h-[700px] md:[800px] w-full items-center justify-center overflow-hidden bg-black p-10 md:shadow-xl shadow-3xl ">
+    <div className="relative grid place-content-center h-[700px] lg:h-[700px] md:[800px] w-full items-center justify-center overflow-hidden bg-black p-10 md:shadow-xl shadow-3xl ">
          {/* logo */}
          <div>
          <Image 
@@ -40,10 +40,10 @@ export default function AnimatedGridPatternDemo() {
                  </h1>
              </div>
              
-            <h1 className="z-10 agdasima whitespace-pre-wrap text-center text-[5.2rem] lg:text-[11rem] md:text-6xl font-medium tracking-tighter text-white dark:text-white">
+            <h1 className="z-10 agdasima whitespace-pre-wrap text-center text-[5rem] lg:text-[11rem] md:text-6xl font-medium tracking-tighter text-white dark:text-white">
                 <span className="text-blue-500 ">Pro </span>Listing Agency
             </h1>
-                 <p className="text-slate-200 text-xl lg:text-xl md:text-2xl  w-[26rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
+                 <p className="text-slate-200 text-lg lg:text-xl md:text-lg  w-[26rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
                     We are a listing agency with transparent pricing and a seamless process, we make your success our priority. 
                     Let&apos;s  take your crypto project to the next level. 
                 </p>
