@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function AnimatedGridPatternDemo() {
   return(
-    <div className="relative grid place-content-center h-[700px] lg:h-[700px] md:[800px] w-full items-center justify-center overflow-hidden bg-black p-10 md:shadow-xl shadow-3xl ">
+    <div className="relative grid place-content-center h-[800px] lg:h-[700px] md:[800px] w-full items-center justify-center overflow-hidden bg-black md:shadow-xl shadow-3xl ">
          {/* logo */}
          <div>
          <Image 
@@ -24,9 +24,9 @@ export default function AnimatedGridPatternDemo() {
               />    
          </div>
 
-      <div className="grid place-content-center p-5 m-auto">
+      <div className="grid place-content-center mt-10 p-2 m-auto">
              
-             <div className="relative flex rounded-full p-[2.5px] mx-auto border z-40 border-white/10  bg-gradient-to-r  from-transparent via-slate-900 to-black w-[17.7rem] place-content-center ">
+             <div className="relative flex rounded-full p-[2px] mx-auto border z-40 border-white/10  bg-gradient-to-r  from-transparent via-slate-900 to-black w-[15rem] lg:w-[17rem] place-content-center ">
              <Image 
                   src={star}
                   alt="star_image"
@@ -35,15 +35,15 @@ export default function AnimatedGridPatternDemo() {
                   sizes="fit-content"
                   className="star "
               />                
-                 <h1 className="text-white text-center text-lg lg:text-lg font-semibold">
+                 <h1 className="text-white text-center text-base lg:text-lg font-semibold">
                       Best Crypto Listing Agency
                  </h1>
              </div>
              
-            <h1 className="z-10 agdasima whitespace-pre-wrap text-center text-[5rem] lg:text-[11rem] md:text-6xl font-medium tracking-tighter text-white dark:text-white">
+            <h1 className="z-10 agdasima whitespace-pre-wrap text-center text-[4.4rem] lg:text-[11rem] md:text-6xl font-medium tracking-tighter text-white dark:text-white">
                 <span className="text-blue-500 ">Pro </span>Listing Agency
             </h1>
-                 <p className="text-slate-200 text-lg lg:text-xl md:text-lg  w-[26rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
+                 <p className="text-slate-200 text-lg lg:text-xl md:text-lg  w-[24rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
                     We are a listing agency with transparent pricing and a seamless process, we make your success our priority. 
                     Let&apos;s  take your crypto project to the next level. 
                 </p>
