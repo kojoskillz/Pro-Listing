@@ -35,7 +35,7 @@ export default function AnimatedGridPatternDemo() {
                   sizes="fit-content"
                   className="star "
               />                
-                 <h1 className="text-white text-center text-base lg:text-lg font-semibold">
+                 <h1 className="text-white mt-[.5px] text-center text-base lg:text-lg font-semibold">
                       Best Crypto Listing Agency
                  </h1>
              </div>
