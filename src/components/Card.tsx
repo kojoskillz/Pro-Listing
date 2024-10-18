@@ -82,7 +82,7 @@ export default function ShineBorderDemo() {
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
       
-  <div className="bg-white w-44 h-[3.5rem] rounded-full p-3 ml-auto">
+  <div className="bg-white w-44 h-[4rem] rounded-full p-3 ml-auto">
             <Image 
                   src={img3}
                   alt="star_image"
