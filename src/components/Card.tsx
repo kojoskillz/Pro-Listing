@@ -1,4 +1,12 @@
 import ShineBorder from "../components/ui/shine-border";
+import img7 from "../app/assets/img7.png";
+import img2 from "../app/assets/img2.png";
+import img3 from "../app/assets/img3.png";
+import img5 from "../app/assets/img5.png";
+import img6 from "../app/assets/img6.png";
+import Image from "next/image";
+
+
 
 export default function ShineBorderDemo() {
   return (
@@ -17,6 +25,19 @@ export default function ShineBorderDemo() {
       className="relative mb-32 grid place-content-center border-[1px] border-white/5  h-[300px] w-[350px] lg:h-[350px] lg:w-[500px] flex-col m-auto  items-center justify-center overflow-hidden   bg-black md:shadow-xl"
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
+
+ 
+            <Image 
+                  src={img7}
+                  alt="star_image"
+                  width="60"
+                  height="60"
+                  sizes="fit-content"
+                  className="img0"
+              />  
+ 
+
+
       <span className="pointer-events-none mr-auto  whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         100+
       </span>
@@ -33,6 +54,16 @@ export default function ShineBorderDemo() {
       className="relative mb-32 grid place-content-center  border-[1px] border-white/5 h-[300px] w-[350px] lg:h-[350px] lg:w-[500px]  flex-col m-auto  items-center justify-center overflow-hidden   bg-black md:shadow-xl"
       color={["#74747439", "#7272724A", "#B8B8B8A4"]}
     >
+
+            <Image 
+                  src={img2}
+                  alt="star_image"
+                  width="60"
+                  height="60"
+                  sizes="fit-content"
+                  className="img0"
+              /> 
+      
       <span className="pointer-events-none mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         95%
       </span>
@@ -48,6 +79,16 @@ export default function ShineBorderDemo() {
       className="relative mb-32 grid place-content-center  border-[1px] border-white/5 h-[300px] w-[350px] lg:h-[350px] lg:w-[500px]  flex-col m-auto  items-center justify-center overflow-hidden   bg-black md:shadow-xl"
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
+
+            <Image 
+                  src={img3}
+                  alt="star_image"
+                  width="60"
+                  height="60"
+                  sizes="fit-content"
+                  className="img0"
+              /> 
+
       <span className="pointer-events-none mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         50+
       </span>
@@ -63,6 +104,16 @@ export default function ShineBorderDemo() {
       className="relative mb-32 grid place-content-center  border-[1px] border-white/5 h-[300px] w-[350px] lg:h-[350px] lg:w-[500px]  flex-col m-auto  items-center justify-center overflow-hidden   bg-black md:shadow-xl"
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
+
+              <Image 
+                  src={img5}
+                  alt="star_image"
+                  width="60"
+                  height="60"
+                  sizes="fit-content"
+                  className="img0"
+              /> 
+
       <span className="pointer-events-none  mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         80%
       </span>
@@ -78,6 +129,16 @@ export default function ShineBorderDemo() {
       className="relative mb-32 grid place-content-center  border-[1px] border-white/5 h-[300px] w-[350px] lg:h-[350px] lg:w-[500px]  flex-col m-auto  items-center justify-center overflow-hidden   bg-black md:shadow-xl"
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
+
+              <Image 
+                  src={img6}
+                  alt="star_image"
+                  width="60"
+                  height="60"
+                  sizes="fit-content"
+                  className="img0"
+              /> 
+
       <span className="pointer-events-none  mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         10x
       </span>
