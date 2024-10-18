@@ -54,15 +54,17 @@ export default function ShineBorderDemo() {
       className="relative mb-32 grid place-content-center  border-[1px] border-white/5 h-[300px] w-[350px] lg:h-[350px] lg:w-[500px]  flex-col m-auto  items-center justify-center overflow-hidden   bg-black md:shadow-xl"
       color={["#74747439", "#7272724A", "#B8B8B8A4"]}
     >
-
-            <Image 
+         <div className="bg-white rounded-full p-3 mr-auto">
+         <Image 
                   src={img2}
                   alt="star_image"
-                  width="60"
+                  width="50"
                   height="60"
                   sizes="fit-content"
                   className="img0"
               /> 
+         </div>
+       
       
       <span className="pointer-events-none mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         95%
