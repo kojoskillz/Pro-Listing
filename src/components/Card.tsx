@@ -82,14 +82,14 @@ export default function ShineBorderDemo() {
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
       
-  <div className="bg-white w-44 h-[4rem] rounded-full p-3 ml-auto">
+  <div className="bg-white w-32 h-[3rem] rounded-full p-1 ml-auto">
             <Image 
                   src={img3}
                   alt="star_image"
                   width="50"
                   height="40"
                   sizes="fit-content"
-                  className="img0"
+                  className="img3"
               /> 
    </div>
       <span className="pointer-events-none mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
