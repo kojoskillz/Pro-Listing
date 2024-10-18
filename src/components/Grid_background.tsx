@@ -43,7 +43,7 @@ export default function AnimatedGridPatternDemo() {
             <h1 className="z-10 agdasima whitespace-pre-wrap text-center text-[4.4rem] lg:text-[11rem] md:text-6xl font-medium tracking-tighter text-white dark:text-white">
                 <span className="text-blue-500 ">Pro </span>Listing Agency
             </h1>
-                 <p className="text-slate-200 text-lg lg:text-xl md:text-lg  w-[24rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
+                 <p className="text-slate-200 z-40 text-lg lg:text-xl md:text-lg  w-[24rem] lg:w-[50rem] grid place-content-center m-auto mt-5 text-center ">
                     We are a listing agency with transparent pricing and a seamless process, we make your success our priority. 
                     Let&apos;s  take your crypto project to the next level. 
                 </p>
