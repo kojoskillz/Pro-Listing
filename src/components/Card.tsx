@@ -26,16 +26,16 @@ export default function ShineBorderDemo() {
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
 
- 
+  <div className="bg-white w-44 rounded-full p-1 ml-auto">
             <Image 
                   src={img7}
                   alt="star_image"
-                  width="60"
+                  width="50"
                   height="60"
                   sizes="fit-content"
                   className="img0"
               />  
- 
+  </div>
 
 
       <span className="pointer-events-none mr-auto  whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
@@ -81,16 +81,17 @@ export default function ShineBorderDemo() {
       className="relative mb-32 grid place-content-center  border-[1px] border-white/5 h-[300px] w-[350px] lg:h-[350px] lg:w-[500px]  flex-col m-auto  items-center justify-center overflow-hidden   bg-black md:shadow-xl"
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
-
+      
+  <div className="bg-white w-44 h-[3.5rem] rounded-full p-3 ml-auto">
             <Image 
                   src={img3}
                   alt="star_image"
-                  width="60"
-                  height="60"
+                  width="50"
+                  height="40"
                   sizes="fit-content"
                   className="img0"
               /> 
-
+   </div>
       <span className="pointer-events-none mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         50+
       </span>
@@ -107,15 +108,16 @@ export default function ShineBorderDemo() {
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
 
+<div className="bg-white w-44 h-[3.5rem] rounded-full p-1 ml-auto">
               <Image 
                   src={img5}
                   alt="star_image"
-                  width="60"
+                  width="50"
                   height="60"
                   sizes="fit-content"
                   className="img0"
               /> 
-
+</div>
       <span className="pointer-events-none  mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         80%
       </span>
@@ -132,14 +134,16 @@ export default function ShineBorderDemo() {
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
 
+<div className="bg-white  rounded-full p-3 ml-auto">
               <Image 
                   src={img6}
                   alt="star_image"
-                  width="60"
+                  width="50"
                   height="60"
                   sizes="fit-content"
                   className="img0"
               /> 
+</div>
 
       <span className="pointer-events-none  mr-auto whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text  agdasima text-[7rem] lg:text-[9rem] font-semibold leading-none dark:from-white dark:to-slate-100/10">
         10x
