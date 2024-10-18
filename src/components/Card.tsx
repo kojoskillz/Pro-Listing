@@ -27,7 +27,7 @@ export default function ShineBorderDemo() {
     >
 
   <div className="bg-white flex lg:w-44 w-48 rounded-full p-1 ml-auto">
-               <h1 className="text-bold text-nowrap m-auto ml-2 tracking-tighter leading-4 text-left text-slate-600 font-bold text-[16.8px] lg:text-[15px] mr-auto">
+               <h1 className="text-bold text-nowrap m-auto ml-2 tracking-tighter leading-4 text-left text-slate-800 font-bold text-[16.8px] lg:text-[15px] mr-auto">
                     Successful Tokens
                </h1> 
             <Image 
@@ -93,7 +93,7 @@ export default function ShineBorderDemo() {
                   sizes="fit-content"
                   className="img3"
               /> 
-               <h1 className="text-bold text-center m-auto tracking-tighter leading-4  text-slate-600 font-bold text-[16.8px] lg:text-[15px] mr-auto">
+               <h1 className="text-bold text-center -ml-2 m-auto tracking-tighter leading-4  text-slate-800 font-bold text-[16.8px] lg:text-[15px] mr-auto">
                   Marketing Campaigns Executed
                </h1>
    </div>
@@ -119,7 +119,7 @@ export default function ShineBorderDemo() {
                   sizes="fit-content"
                   className="imgX"
               /> 
-           <h1 className="text-bold m-auto -ml-2 text-left text-slate-600 font-bold text-[16.8px] lg:text-[15px] mr-auto">
+           <h1 className="text-bold m-auto -ml-2 text-left text-slate-800 font-bold text-[16.8px] lg:text-[15px] mr-auto">
               Faster Listings
            </h1>
 </div>
