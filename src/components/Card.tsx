@@ -13,7 +13,7 @@ export default function ShineBorderDemo() {
 <div className="mb-20">
 
     <div className="grid ">
-    <h1 className="text-white agdasima text-5xl leading-8 -mt-[23rem] lg:-mt-[7rem]  font-bold text-center">
+    <h1 className="text-white agdasima text-5xl leading-[45px] -mt-[23rem] lg:-mt-[7rem]  font-bold text-center">
       Our Members <span className="text-blue-500"> Accomplishment</span> 
     </h1>
   </div>
