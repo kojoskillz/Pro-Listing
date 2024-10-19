@@ -4,6 +4,7 @@ import AnimatedGridPatternDemo from '../components/Grid_background';
 import FloatingNavDemo from '../components/Navbar';
 import ShineBorderDemo from '../components/Card';
 import TextRevealDemo from '../components/TextReveal';
+import AccordionDemo from '../components/Accordion';
 // import BentoDemo from '../components/BentoGrid';
 
 
@@ -18,6 +19,7 @@ export default function Home() {
         {/* <ShinyButtonDemo /> */}
         <TextRevealDemo />
         <ShineBorderDemo />
+        <AccordionDemo />
         {/* <BentoDemo /> */}
       
        
