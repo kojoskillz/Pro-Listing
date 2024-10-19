@@ -75,7 +75,7 @@ export default function ShineBorderDemo() {
           Client Satisfaction
       </h1>
       <p className="text-gray-200/70 text-[18px] ">
-         Consistently delivering high-quality service with a 95% client satisfaction
+         Consistently delivering high-quality service with a 95% client satisfaction.
       </p>
     </ShineBorder>
 
@@ -128,7 +128,7 @@ export default function ShineBorderDemo() {
       </span>
     
       <p className="text-gray-200/70 text-[18px] ">
-        Achieved lisitngs up to 80% faster than industry averages, ensuring your tokens gets to market quickly.
+        Achieved listings up to 80% faster than industry averages, ensuring your tokens gets to market quickly.
       </p>
     </ShineBorder>
 
@@ -137,7 +137,7 @@ export default function ShineBorderDemo() {
       color={["#74747439", "#7272724A", "#B8B8B84B"]}
     >
 
-<div className="bg-white  rounded-full p-3 ml-auto">
+<div className="bg-white  rounded-full p-3 mr-auto">
               <Image 
                   src={img6}
                   alt="star_image"
