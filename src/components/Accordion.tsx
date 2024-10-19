@@ -11,7 +11,7 @@ import {
       
       <Accordion type="single" collapsible className="mb-20 w-[22rem] md:w-[50rem] lg:w-[60rem] m-auto ">
          <div>
-            <h1 className="text-white agdasima text-center text-[45px] lg:text-[90px]">
+            <h1 className="text-white agdasima leading-[45px] text-center text-[45px] lg:text-[90px]">
                FREQUENTLY ASKED QUESTIONS
             </h1>
             <p className="text-gray-500  text-center text-[20px] lg:text-[30px] mb-10 ">
