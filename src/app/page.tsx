@@ -3,6 +3,7 @@ import AnimatedGridPatternDemo from '../components/Grid_background';
 // import ShinyButtonDemo from '../components/Grid_background';
 import FloatingNavDemo from '../components/Navbar';
 import ShineBorderDemo from '../components/Card';
+import  StickyScrollRevealDemo from '../components/Sticky_Scroll_Reveal_Card';
 import TextRevealDemo from '../components/TextReveal';
 import AccordionDemo from '../components/Accordion';
 // import BentoDemo from '../components/BentoGrid';
@@ -19,6 +20,7 @@ export default function Home() {
         {/* <ShinyButtonDemo /> */}
         <TextRevealDemo />
         <ShineBorderDemo />
+        <StickyScrollRevealDemo />
         <AccordionDemo />
         {/* <BentoDemo /> */}
       
