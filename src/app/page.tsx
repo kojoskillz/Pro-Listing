@@ -7,6 +7,8 @@ import  StickyScrollRevealDemo from '../components/Sticky_Scroll_Reveal_Card';
 import TextRevealDemo from '../components/TextReveal';
 import AccordionDemo from '../components/Accordion';
 import MagicCardDemo  from '../components/Magic_card';
+import Partnership  from '../components/Partnership';
+import Testimonials from '../components/Testimonials';
 // import BentoDemo from '../components/BentoGrid';
 
 
@@ -23,6 +25,8 @@ export default function Home() {
         <ShineBorderDemo />
         <StickyScrollRevealDemo />
         <MagicCardDemo />
+        <Partnership />
+        <Testimonials />
         <AccordionDemo />
         {/* <BentoDemo /> */}
       
