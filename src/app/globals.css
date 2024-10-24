@@ -178,6 +178,8 @@ body{
   }
 }
 
+
+
 :root {
   --font-agdasima: "Agdasima", cursive;
   /* --font-paytone_one:  "Paytone_One", system-ui; */
@@ -185,4 +187,27 @@ body{
 
 .agdasima {
   font-family: var(--font-agdasima);
+}
+
+.swipe-container {
+  display: flex;
+  overflow: hidden;
+  gap: 12px;
+  scroll-snap-type: x mandatory;
+}
+
+.swipe-element {
+  flex-shrink: 0;
+  width: 22rem;
+  height: 18rem;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #f7f7f7;
+  scroll-snap-align: center;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.swipe-element:hover {
+  transform: scale(1.05);
 }
