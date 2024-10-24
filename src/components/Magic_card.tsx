@@ -12,7 +12,7 @@ export default function MagicCardDemo() {
                 What We Offer
             </h1>
     </div>
-    <div className="gap-20 gap-y-5 lg:gap-y-10 grid mt-[2rem] lg:mt-[2rem] lg:m-[16rem] mb-44 lg:grid-cols-2 md:grid">
+    <div className="gap-20 gap-y-5 lg:gap-y-10 grid mt-[2rem] lg:mt-[2rem] lg:m-[12rem] mb-44 lg:grid-cols-2 md:grid">
      
       <MagicCard
         className="cursor-pointer lg:h-[35rem] flex-col items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
