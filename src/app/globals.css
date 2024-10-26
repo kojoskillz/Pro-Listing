@@ -188,12 +188,20 @@ body{
 .agdasima {
   font-family: var(--font-agdasima);
 }
-
 .swipe-container {
   display: flex;
-  overflow: hidden;
-  gap: 12px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 17px;
   scroll-snap-type: x mandatory;
+}
+
+.swipe-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.swipe-container {
+  -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
 }
 
 .swipe-element {
@@ -209,5 +217,5 @@ body{
 }
 
 .swipe-element:hover {
-  transform: scale(1.05);
+  transform: scale(0.6);
 }
