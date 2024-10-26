@@ -11,8 +11,8 @@ import {
       
       <Accordion type="single" collapsible className="mb-20 w-[22rem] md:w-[50rem] lg:w-[60rem] m-auto ">
          <div>
-            <h1 className="text-white agdasima leading-[45px] lg:mb-8 text-center text-[45px] lg:text-[90px]">
-               FREQUENTLY ASKED QUESTIONS
+            <h1 className="text-white agdasima font-bold leading-[45px] lg:mb-8 text-center text-[45px] lg:text-[90px]">
+               Frequently Asked Questions
             </h1>
             <p className="text-gray-500  text-center text-[20px] lg:text-[30px] mb-10 ">
                 Your Most Pressing Queries Answered
@@ -21,7 +21,7 @@ import {
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-[16px] lg:text-3xl md:text-[18.5px]  ">What services does your agency provide?</AccordionTrigger>
           <AccordionContent className="text-[13px] lg:text-[17px] md:text-[14px] font-normal text-wrap text-gray-300  ">
-          We offer a range of services including token listings on CoinMarketCap and CoinGecko, marketing, shilling, trending, community management, and growth strategies.
+             We offer a range of services including token listings on CoinMarketCap and CoinGecko, marketing, shilling, trending, community management, and growth strategies.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
