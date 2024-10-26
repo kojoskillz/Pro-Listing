@@ -9,7 +9,7 @@ import AccordionDemo from '../components/Accordion';
 import MagicCardDemo  from '../components/Magic_card';
 import Partnership  from '../components/Partnership';
 import Testimonials from '../components/Testimonials';
-// import BentoDemo from '../components/BentoGrid';
+import Footer from '../components/Footer';
 
 
 
@@ -28,7 +28,7 @@ export default function Home() {
         <Partnership />
         <Testimonials />
         <AccordionDemo />
-        {/* <BentoDemo /> */}
+        <Footer />
       
        
     </>
