@@ -72,10 +72,10 @@ const Testimonials = () => {
         </div>
         <div className='flex-shrink-0 swipe-element  transition-all ease-in-out delay-150 duration-200 group hover:bg-black hover:scale-105 hover:text-white cursor-pointer hover:transition-all hover:duration-75 bg-gray-100 w-[22rem] h-[18rem] p-5 rounded-[25px]  m-auto '>
             <h1 className='text-black group-hover:text-white  text-xl font-semibold '>
-               Winner Otuosorochi    
+               Mavis Cooke   
             </h1> 
             <p className='text-black/50 group-hover:text-white/60 '>
-                Cybersecurity
+                CEO, Interl
             </p>
   
             <div className='flex mt-10 '>
@@ -125,15 +125,15 @@ const Testimonials = () => {
             </div>
 
             <p className='text-black text-lg font-semibold group-hover:text-white'>
-               "Their services was top notch, will recommend them."  
+               "They made me trust in their services.Was updated at every moment."  
             </p> 
         </div>
         <div className='flex-shrink-0 swipe-element  transition-all ease-in-out delay-150 duration-200 group hover:bg-black hover:scale-105 hover:text-white cursor-pointer hover:transition-all hover:duration-75 bg-gray-100 w-[22rem] h-[18rem] p-5 rounded-[25px]  m-auto '>
             <h1 className='text-black group-hover:text-white  text-xl font-semibold '>
-               Winner Otuosorochi    
+              Henry Roi    
             </h1> 
             <p className='text-black/50 group-hover:text-white/60 '>
-                Cybersecurity
+               Graphic Designer
             </p>
   
             <div className='flex mt-10 '>
@@ -183,15 +183,15 @@ const Testimonials = () => {
             </div>
 
             <p className='text-black text-lg font-semibold group-hover:text-white'>
-               "Their services was top notch, will recommend them."  
+               "They are professionals as they say."  
             </p> 
         </div>
         <div className='flex-shrink-0 swipe-element  transition-all ease-in-out delay-150 duration-200 group hover:bg-black hover:scale-105 hover:text-white cursor-pointer hover:transition-all hover:duration-75 bg-gray-100 w-[22rem] h-[18rem] p-5 rounded-[25px]  m-auto '>
             <h1 className='text-black group-hover:text-white  text-xl font-semibold '>
-               Winner Otuosorochi    
+                Selina Brooke  
             </h1> 
             <p className='text-black/50 group-hover:text-white/60 '>
-                Cybersecurity
+                Financial Analyst
             </p>
   
             <div className='flex mt-10 '>
@@ -241,15 +241,15 @@ const Testimonials = () => {
             </div>
 
             <p className='text-black text-lg font-semibold group-hover:text-white'>
-               "Their services was top notch, will recommend them."  
+               "Simply the best agency in crypto listings."  
             </p> 
         </div>
         <div className='flex-shrink-0 swipe-element  transition-all ease-in-out delay-150 duration-200 group hover:bg-black hover:scale-105 hover:text-white cursor-pointer hover:transition-all hover:duration-75 bg-gray-100 w-[22rem] h-[18rem] p-5 rounded-[25px]  m-auto '>
             <h1 className='text-black group-hover:text-white  text-xl font-semibold '>
-               Winner Otuosorochi    
+             Kwadwo Nyarko
             </h1> 
             <p className='text-black/50 group-hover:text-white/60 '>
-                Cybersecurity
+                Software Engineer
             </p>
   
             <div className='flex mt-10 '>
@@ -299,15 +299,15 @@ const Testimonials = () => {
             </div>
 
             <p className='text-black text-lg font-semibold group-hover:text-white'>
-               "Their services was top notch, will recommend them."  
+               "Need a place to enlist your tokens. Pro-Listing doesnt disappoint."  
             </p> 
         </div>
         <div className='flex-shrink-0 swipe-element  transition-all ease-in-out delay-150 duration-200 group hover:bg-black hover:scale-105 hover:text-white cursor-pointer hover:transition-all hover:duration-75 bg-gray-100 w-[22rem] h-[18rem] p-5 rounded-[25px]  m-auto '>
             <h1 className='text-black group-hover:text-white  text-xl font-semibold '>
-               Winner Otuosorochi    
+              Kwaku Peter   
             </h1> 
             <p className='text-black/50 group-hover:text-white/60 '>
-                Cybersecurity
+                Project Manager
             </p>
   
             <div className='flex mt-10 '>
@@ -357,7 +357,7 @@ const Testimonials = () => {
             </div>
 
             <p className='text-black text-lg font-semibold group-hover:text-white'>
-               "Their services was top notch, will recommend them."  
+               "Best crypto listing agency. Impressed with their services.Its a 5 star for me."  
             </p> 
         </div>
      
