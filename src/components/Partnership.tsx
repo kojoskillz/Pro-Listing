@@ -32,7 +32,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                   className=" border-[1px] rounded-[25px] border-black/15 h-[20rem] w-[20rem] object-contain "
+                   className=" border-[1px] rounded-[25px] border-black/15 p-20 h-[20rem] w-[20rem] object-contain "
                  />
             {/* bitmart */}
                <Image 
@@ -41,7 +41,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                   className=" border-[1px] rounded-[25px] border-black/15 h-[20rem] w-[20rem] object-contain "
+                   className=" border-[1px] rounded-[25px] border-black/15 p-20 h-[20rem] w-[20rem] object-contain "
                  />
             {/* Coinw */}
                <Image 
@@ -50,7 +50,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                  className=" border-[1px] rounded-[25px] border-black/15 h-[20rem] w-[20rem] object-contain "
+                  className=" border-[1px] rounded-[25px] border-black/15 p-20 h-[20rem] w-[20rem] object-contain "
                  />
             {/* Kucoin */}
                <Image 
@@ -59,7 +59,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                    className=" border-[1px] rounded-[25px] border-black/15 h-[20rem] w-[20rem] object-contain  "
+                    className=" border-[1px] rounded-[25px] border-black/15 p-20 h-[20rem] w-[20rem] object-contain  "
                  />
             {/* Lbank */}
                <Image 
@@ -68,7 +68,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                   className=" border-[1px] rounded-[25px] border-black/15 h-[20rem] w-[20rem] object-contain  "
+                   className=" border-[1px] rounded-[25px] border-black/15 p-20 h-[20rem] w-[20rem] object-contain  "
                  />
             {/* Mexc */}
                <Image 
@@ -77,7 +77,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                   className=" border-[1px] rounded-[25px] border-black/15 h-[20rem] w-[20rem] object-contain  "
+                   className=" border-[1px] rounded-[25px] border-black/15 p-20 h-[20rem] w-[20rem] object-contain  "
                  />
             {/* okx */}
                <Image 
@@ -86,7 +86,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                   className=" border-[1px] rounded-[25px] border-black/15 h-[20rem] w-[20rem] object-contain "
+                   className=" border-[1px] rounded-[25px] border-black/15 p-20 h-[20rem] w-[20rem] object-contain "
                  />
             {/* probit */}
                <Image 
@@ -95,7 +95,7 @@ const Partnership = () => {
                   width="100"
                   height="100"
                   sizes="fit-content"
-                    className=" border-[1px] rounded-[25px]  border-black/15 h-[20rem] lg:w-[60rem] w-[20rem] object-contain "
+                    className=" border-[1px] rounded-[25px]  border-black/15 p-20 h-[20rem] lg:w-[60rem] w-[20rem] object-contain "
                  />
 
 
